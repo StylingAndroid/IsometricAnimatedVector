@@ -20,6 +20,21 @@
     </aapt:attr>
   </target>
 
+  <target android:name="south_west">
+
+    <aapt:attr name="android:animation">
+
+      <objectAnimator
+        android:duration="1000"
+        android:propertyName="fillColor"
+        android:repeatCount="infinite"
+        android:repeatMode="reverse"
+        android:valueFrom="#22CF25"
+        android:valueTo="#229025" />
+
+    </aapt:attr>
+  </target>
+
   <target android:name="south_east">
 
     <aapt:attr name="android:animation">
@@ -32,6 +47,21 @@
         android:valueFrom="M441.8,320L552.8,255.9L441.8,128L331.1,191.9Z"
         android:valueTo="M441.8,320L552.8,255.9L441.8,192L330.9,256Z"
         android:valueType="pathType" />
+
+    </aapt:attr>
+  </target>
+
+  <target android:name="south_east">
+
+    <aapt:attr name="android:animation">
+
+      <objectAnimator
+        android:duration="1000"
+        android:propertyName="fillColor"
+        android:repeatCount="infinite"
+        android:repeatMode="reverse"
+        android:valueFrom="#2D832D"
+        android:valueTo="#229025" />
 
     </aapt:attr>
   </target>
@@ -52,6 +82,21 @@
     </aapt:attr>
   </target>
 
+  <target android:name="north_west">
+
+    <aapt:attr name="android:animation">
+
+      <objectAnimator
+        android:duration="1000"
+        android:propertyName="fillColor"
+        android:repeatCount="infinite"
+        android:repeatMode="reverse"
+        android:valueFrom="#2E812E"
+        android:valueTo="#229025" />
+
+    </aapt:attr>
+  </target>
+
   <target android:name="north_east">
 
     <aapt:attr name="android:animation">
@@ -64,6 +109,21 @@
         android:valueFrom="M441.8,128L552.8,127.9L442,63.9L331.1,63.9Z"
         android:valueTo="M441.8,192L552.8,127.9L442,63.9L330.9,128Z"
         android:valueType="pathType" />
+
+    </aapt:attr>
+  </target>
+
+  <target android:name="north_east">
+
+    <aapt:attr name="android:animation">
+
+      <objectAnimator
+        android:duration="1000"
+        android:propertyName="fillColor"
+        android:repeatCount="infinite"
+        android:repeatMode="reverse"
+        android:valueFrom="#176B1A"
+        android:valueTo="#229025" />
 
     </aapt:attr>
   </target>
