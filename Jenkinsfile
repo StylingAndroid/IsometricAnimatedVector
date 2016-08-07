@@ -1,5 +1,6 @@
 node('connected') {
    stage 'Checkout'
+   tool name: 'jgit', type: 'hudson.plugins.git.GitTool'
    git branch: '*', credentialsId: 'e60a77cd-eb1f-4565-95b1-606d8cb7fdc6', url: 'git@github.com:StylingAndroid/IsometricAnimatedVectorPrivate.git'
 
    stage 'Build'
