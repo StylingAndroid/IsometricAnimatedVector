@@ -1,0 +1,87 @@
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:aapt="http://schemas.android.com/aapt"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:drawable="@drawable/raised"
+  tools:ignore="MissingPrefix">
+
+  <target android:name="south_west">
+
+    <aapt:attr name="android:animation">
+
+      <objectAnimator
+        android:duration="1000"
+        android:propertyName="pathData"
+        android:repeatCount="infinite"
+        android:repeatMode="reverse"
+        android:valueFrom="M109.2,256L220.1,320L331.1,191.9L220.3,127.9Z"
+        android:valueTo="M109.2,256L220.1,320L330.9,256L220.1,192Z"
+        android:valueType="pathType" />
+
+    </aapt:attr>
+  </target>
+
+  <target android:name="south_east">
+
+    <aapt:attr name="android:animation">
+
+      <objectAnimator
+        android:duration="1000"
+        android:propertyName="pathData"
+        android:repeatCount="infinite"
+        android:repeatMode="reverse"
+        android:valueFrom="M441.8,320L552.8,255.9L441.8,128L331.1,191.9Z"
+        android:valueTo="M441.8,320L552.8,255.9L441.8,192L330.9,256Z"
+        android:valueType="pathType" />
+
+    </aapt:attr>
+  </target>
+
+  <target android:name="north_west">
+
+    <aapt:attr name="android:animation">
+
+      <objectAnimator
+        android:duration="1000"
+        android:propertyName="pathData"
+        android:repeatCount="infinite"
+        android:repeatMode="reverse"
+        android:valueFrom="M220.3,127.9L331.1,63.9L220.3,63.9L109.2,128Z"
+        android:valueTo="M220.1,192L330.9,128L220.3,63.9L109.2,128Z"
+        android:valueType="pathType" />
+
+    </aapt:attr>
+  </target>
+
+  <target android:name="north_east">
+
+    <aapt:attr name="android:animation">
+
+      <objectAnimator
+        android:duration="1000"
+        android:propertyName="pathData"
+        android:repeatCount="infinite"
+        android:repeatMode="reverse"
+        android:valueFrom="M441.8,128L552.8,127.9L442,63.9L331.1,63.9Z"
+        android:valueTo="M441.8,192L552.8,127.9L442,63.9L330.9,128Z"
+        android:valueType="pathType" />
+
+    </aapt:attr>
+  </target>
+
+  <target android:name="centre">
+
+    <aapt:attr name="android:animation">
+
+      <objectAnimator
+        android:duration="1000"
+        android:propertyName="pathData"
+        android:repeatCount="infinite"
+        android:repeatMode="reverse"
+        android:valueFrom="M331.1,191.9L441.8,128L331.1,63.9L220.3,127.9Z"
+        android:valueTo="M330.9,256L441.8,192L330.9,128L220.1,192Z"
+        android:valueType="pathType" />
+
+    </aapt:attr>
+  </target>
+
+</animated-vector>

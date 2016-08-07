@@ -13,6 +13,6 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:contentDescription="@null"
-    android:src="@drawable/raised" />
+    android:src="@drawable/animated" />
 
 </LinearLayout>
